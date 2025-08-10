@@ -1,0 +1,96 @@
+import React from "react";
+import "./FeaturedProjects.css";
+
+export default function FeaturedProjects() {
+  return (
+    <div className="FeaturedProjects">
+      <section className="first-section-fluid">
+        <div class="row g-5">
+          <div class="col-md-6">
+            <img
+              src="/images/vanilla-weather-app.png"
+              alt="weather-app"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md-6">
+            <h2>Vanilla Weather App</h2>
+            <p class="mt-3 mb-5">
+              I built a Vanilla JavaScript weather app in SheCodes Plus, an
+              advanced 8-week JavaScript coding workshop. Building upon my
+              previously-gained knowledge, I also became skilled in Bootstrap,
+              API’s, real-life development workflow, hosting, and advanced
+              JavaScript. I combined all of these skills to create a
+              fully-functioning weather app.
+            </p>
+            <a href="projects.html" rel="noreferrer">
+              Learn More
+            </a>
+          </div>
+          <div class="col-md-6">
+            <h2>Clock App</h2>
+            <p class="mt-3 mb-5">
+              This Clock Application is built using HTML, CSS, JavaScript, and
+              styled with Bootstrap. It displays the current time dynamically
+              and updates every second in real-time. The interface is responsive
+              and clean, making it easy to use on both desktop and mobile
+              devices. It was a fun way to practice DOM manipulation, time
+              functions, and Bootstrap layout utilities.
+            </p>
+            <a href="projects.html" rel="noreferrer">
+              Learn More
+            </a>
+          </div>
+          <div class="col-md-6">
+            <img src="images/clock-app.png" class="img-fluid" alt="clock-app" />
+          </div>
+          <div class="col-md-6">
+            <img
+              src="images/AI-poem-generator.png"
+              alt="ai-poem-generator"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md-6">
+            <h2>AI Poem Generator App</h2>
+            <p class="mt-3 mb-5">
+              The AI Poem Generator is a creative web application that uses
+              artificial intelligence to craft unique poems on demand. Built
+              with HTML and CSS for a clean and responsive design, it leverages
+              Bootstrap to ensure a sleek, mobile-friendly interface. JavaScript
+              powers the interactive features, communicating with an AI model to
+              generate poetic verses based on user input or random prompts.
+            </p>
+            <a href="projects.html" rel="noreferrer">
+              Learn More
+            </a>
+          </div>
+          <div class="col-md-6">
+            <h2>React Weather App</h2>
+            <p class="mt-3 mb-5">
+              I created a responsive Weather App using React and React-Bootstrap
+              to deliver real-time weather updates in a clean, user-friendly
+              interface. The app fetches weather data from an external API and
+              displays it with intuitive components such as cards, buttons, and
+              grids styled using React-Bootstrap. It features search
+              functionality for any city, dynamic weather icons, and temperature
+              details, all wrapped in a modern, mobile-responsive layout. This
+              project helped me strengthen my skills in React, API integration,
+              and component-based UI design.
+            </p>
+            <a href="projects.html" rel="noreferrer">
+              Learn More
+            </a>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="images/react-weather-app.png"
+              alt="react-weather-app"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
