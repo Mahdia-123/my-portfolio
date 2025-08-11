@@ -1,0 +1,49 @@
+.contact-links a {
+  margin-left: 30px;
+  font-size: 40px;
+  color: #ebf6f6;
+  text-decoration: none;
+}
+.contact-links a:hover {
+  color: #f76b8a;
+}
+footer {
+  padding: 30px 50px;
+  margin: 0 auto;
+  background: #66bfbf;
+}
+footer .email a {
+  line-height: 1.5;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #ebf6f6;
+  transition: all 200ms ease-in-out;
+}
+footer .email a:hover {
+  color: #f76b8a;
+}
+
+footer p {
+  text-align: center;
+  color: #ebf6f6;
+  font-weight: bold;
+}
+footer span a {
+  color: #ebf6f6;
+  transition: all 200ms ease-in-out;
+}
+footer span a:hover {
+  color: #f76b8a;
+}
+@media (max-width: 960px) {
+  footer .email a {
+    font-size: 20px;
+  }
+  .contact-links a {
+    font-size: 25px;
+  }
+  footer p {
+    font-size: 14px;
+  }
+}

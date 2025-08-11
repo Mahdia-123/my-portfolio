@@ -1,0 +1,15 @@
+.navbar-toggler {
+  background-color: #f76b8a;
+}
+.navbar {
+  background: #66bfbf;
+}
+.navbar a {
+  color: #ebf6f6;
+  font-weight: bold;
+
+  transition: 200ms all ease-in-out;
+}
+.navbar a:hover {
+  color: #f76b8a;
+}

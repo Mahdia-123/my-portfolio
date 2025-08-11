@@ -1,9 +1,21 @@
 import React from "react";
-import "./FeaturedProjects.css";
+import "./Home.css";
+import { Link } from "react-router-dom"; // import Link from react-router-dom
+import Navbar from "../Component/Navbar";
+import Footer from "../Component/Footer";
 
-export default function FeaturedProjects() {
+export default function Home() {
   return (
-    <div className="FeaturedProjects">
+    <div>
+      <Navbar />
+      <section className="Hero">
+        <h2>Hi, I am</h2>
+        <h1 className="mt-3">Mahdia Khamoosh</h1>
+        <h3 className="mt-3">Front-end web developer based in Afghanistan</h3>
+        <div className="about-me mt-5">
+          <Link to="/about">About me</Link>
+        </div>
+      </section>
       <section className="first-section-fluid">
         <div class="row g-5">
           <div class="col-md-6">
@@ -91,6 +103,7 @@ export default function FeaturedProjects() {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 }
