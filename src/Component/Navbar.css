@@ -1,6 +1,7 @@
 .navbar-toggler {
-  background-color: #f76b8a;
+  background-color: #f76b8a !important;
 }
+
 .navbar {
   background: #66bfbf;
 }
