@@ -10,7 +10,8 @@
 footer {
   padding: 30px 50px;
   margin: 0 auto;
-  background: #66bfbf;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/public/images/footer wall paper.jpg");
   font-family: "PT Mono", monospace;
 }
 footer .email a {

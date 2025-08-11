@@ -1,0 +1,101 @@
+.about-section-fluid {
+  padding: 50px 100px;
+  margin-top: 60px;
+  font-family: "PT Mono", monospace;
+}
+.about-section-fluid h1 {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 1.5;
+  color: #66bfbf;
+  text-align: left;
+}
+.about-section-fluid h3 {
+  font-size: 25px;
+}
+.about-section-fluid p {
+  font-family: roboto;
+  font-size: 16px;
+  line-height: 2;
+}
+.about-section-fluid a {
+  font-family: "PT Mono", monospace;
+  text-decoration: none;
+  color: #f76b8a;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 200ms ease-in-out;
+  line-height: 1.5;
+  border: 1px solid #f76b8a;
+  padding: 20px 30px;
+  border-radius: 8px;
+  background: rgba(102, 191, 191, 0.2);
+  backdrop-filter: blur(10px);
+}
+.about-section-fluid a:hover {
+  color: #66bfbf;
+  border: 1px solid#66bfbf;
+  background: rgba(247, 107, 138, 0.2);
+}
+
+.grid {
+  display: grid;
+}
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 60px;
+}
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+.img-fluid {
+  border: none;
+  border-radius: 20px;
+  height: 500px !important;
+  width: 500px !important;
+}
+.about-section-fluid-skills {
+  margin-top: 10px;
+}
+.my-skills {
+  font-size: 50px;
+  color: #66bfbf;
+}
+.my-skills .skills-title {
+  font-size: 14px;
+}
+.about-section-fluid-skills .tech {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+@media (max-width: 960px) {
+  .grid-2-columns {
+    grid-template-columns: 1fr;
+    grid-gap: none;
+  }
+  .about-section-fluid {
+    padding: 20px 20px;
+  }
+  .about-section-fluid h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .about-section-fluid h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .about-section-fluid a {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .about-section-fluid p {
+    text-align: center;
+  }
+
+  .img-fluid {
+    width: 100%;
+    height: auto;
+  }
+}
