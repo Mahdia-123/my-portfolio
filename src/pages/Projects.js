@@ -63,33 +63,36 @@ export default function Projects() {
   ];
 
   return (
-    <section className="projects-section-fluid mb-3">
-      <h1 className="mb-2">Take a look at what I've been working on!</h1>
-      <div className="grid grid-2-columns">
-        {projects.map(function (pro, index) {
-          return (
-            <div key={index}>
-              <a href={pro.img} target="_blank" rel="noreferrer">
-                <img
-                  src={pro.img}
-                  alt={`Projects${index}`}
-                  className="img-fluid"
-                />
-              </a>
-              <h2 className="heading mb-2">{pro.title}</h2>
-              <p className="mb-4">{pro.subTitle}</p>
-              <a
-                href={pro.link}
-                target="_blank"
-                rel="noreferrer"
-                className="project-link"
-              >
-                Launch Project
-              </a>
-            </div>
-          );
-        })}
-      </div>
-    </section>
+    <div>
+      <section className="projects-section-fluid mb-3">
+        <h1 className="mb-2">Take a look at what I've been working on!</h1>
+        <div className="grid grid-2-columns">
+          {projects.map(function (pro, index) {
+            return (
+              <div key={index}>
+                <a href={pro.img} target="_blank" rel="noreferrer">
+                  <img
+                    src={pro.img}
+                    alt={`Projects${index}`}
+                    className="img-fluid"
+                  />
+                </a>
+                <h2 className="heading mb-2">{pro.title}</h2>
+                <p className="mb-4">{pro.subTitle}</p>
+                <a
+                  href={pro.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-link"
+                >
+                  Launch Project
+                </a>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+      <Footer />
+    </div>
   );
 }
