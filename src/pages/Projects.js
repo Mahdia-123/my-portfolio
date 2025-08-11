@@ -60,6 +60,12 @@ export default function Projects() {
       title: "Book Tracker App",
       subTitle: "Built with HTML, CSS and JavaScript",
     },
+    {
+      img: "images/school landing page.png",
+      link: "https://noor-high-school.netlify.app/",
+      title: "Noor High School",
+      subTitle: "Built with HTML, CSS and JavaScript",
+    },
   ];
 
   return (
