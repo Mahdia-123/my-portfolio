@@ -2,8 +2,8 @@ import React from "react";
 
 import "./Home.css";
 import { Link } from "react-router-dom";
-import Navbar from "../Component/Navbar";
-import Footer from "../Component/Footer";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import NewDate from "../Component/NewDate";
+import NewDate from "./NewDate";
 export default function Footer() {
   return (
     <div>

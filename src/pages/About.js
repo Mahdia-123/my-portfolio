@@ -1,10 +1,10 @@
 import React from "react";
 
 import { Link } from "react-router-dom";
-import Navbar from "../Component/Navbar";
-import Footer from "../Component/Footer";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import "./About.css";
-import "../Component/Footer.css";
+import "../components/Footer.css";
 export default function About() {
   return (
     <div>

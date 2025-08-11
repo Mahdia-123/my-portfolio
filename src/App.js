@@ -1,9 +1,9 @@
 import "./App.css";
-import Navbar from "./Component/Navbar";
+import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Achivements from "./pages/Achivements";
+import Achivements from "./pages/Achievements";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
@@ -14,7 +14,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/achivements" element={<Achivements />} />
+        <Route path="/achievements" element={<Achivements />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
