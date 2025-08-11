@@ -32,7 +32,7 @@ export default function About() {
         </div>
       </section>
       <section class="about-section-fluid-skills">
-        <h1 class="text-center">My Skills</h1>
+        <h1 class="text-center skills">My Skills</h1>
         <div class="my-skills grid grid-3-columns mt-5 text-center">
           <div>
             <i class="fa-brands fa-html5"></i>

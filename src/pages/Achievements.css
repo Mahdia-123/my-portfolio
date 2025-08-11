@@ -13,7 +13,7 @@
 }
 
 #certificates {
-  color: #66bfbf;
+  color: #f76b8a;
   padding: 30px 50px;
   margin-top: 70px;
 }
@@ -58,14 +58,13 @@
   text-align: center;
   font-size: 30px;
   font-weight: bold;
-  color: #66bfbf;
+  color: #f76b8a;
 }
 
 .cv {
   text-align: center;
   font-size: 30px;
   margin-bottom: 30px;
-  color: #66bfbf;
 }
 
 .cv a {

@@ -7,7 +7,7 @@
   font-weight: 900;
   font-size: 50px;
   line-height: 1.5;
-  color: #66bfbf;
+  color: #f76b8a;
   text-align: left;
 }
 .about-section-fluid h3 {
@@ -58,12 +58,17 @@
 .about-section-fluid-skills {
   margin-top: 10px;
 }
+.skills {
+  color: #f76b8a;
+  font-weight: bolder;
+}
 .my-skills {
   font-size: 50px;
   color: #66bfbf;
 }
 .my-skills .skills-title {
   font-size: 14px;
+  color: #f76b8a;
 }
 .about-section-fluid-skills .tech {
   font-size: 30px;
