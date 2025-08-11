@@ -11,6 +11,7 @@ footer {
   padding: 30px 50px;
   margin: 0 auto;
   background: #66bfbf;
+  font-family: "PT Mono", monospace;
 }
 footer .email a {
   line-height: 1.5;

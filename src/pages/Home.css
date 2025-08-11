@@ -15,15 +15,18 @@
   line-height: 1.5;
   margin: 30px 0;
   color: white;
+  font-family: "PT Mono", monospace;
 }
 .Hero h2 {
   font-size: 40px;
   font-weight: 700;
   line-height: 1.5;
+  font-family: "PT Mono", monospace;
 }
 .Hero h3 {
   font-size: 28px;
   font-weight: thin;
+  font-family: "PT Mono", monospace;
 }
 .Hero .about-me a {
   text-decoration: none;
@@ -37,6 +40,7 @@
   border-radius: 8px;
   background: rgba(102, 191, 191, 0.2);
   backdrop-filter: blur(10px);
+  font-family: "PT Mono", monospace;
 }
 .Hero .about-me a:hover {
   color: #66bfbf;
@@ -53,12 +57,14 @@
 section h1 {
   text-align: center;
   color: #66bfbf;
+  font-family: "PT Mono", monospace;
 }
 .first-section-fluid h2 {
   font-size: 30px;
   font-weight: 700;
   line-height: 1.5;
   color: #f76b8a;
+  font-family: "PT Mono", monospace;
 }
 .first-section-fluid .img-fluid {
   border-radius: 10px;
@@ -69,6 +75,7 @@ section h1 {
   line-height: 1.8;
 }
 .first-section-fluid a {
+  font-family: "PT Mono", monospace;
   text-decoration: none;
   color: #f76b8a;
   font-size: 18px;
