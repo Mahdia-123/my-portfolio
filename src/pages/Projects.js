@@ -21,13 +21,13 @@ export default function Projects() {
     {
       img: "images/landaing-website.png",
       link: "https://afghanistan-tourism.netlify.app/",
-      title: "Afghanistan Landing Page",
+      title: "Kabul Landing Page",
       subTitle: "Built with HTML, CSS, JavaScript",
     },
     {
       img: "images/AI-poem-generator.png",
       link: "https://afghan-ai-peom-generator.netlify.app/",
-      title: "AI Peom Generator",
+      title: "AI Poemm Generator",
       subTitle: "Built with HTML, CSS, JavaScript and AI",
     },
     {
