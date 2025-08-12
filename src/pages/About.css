@@ -70,10 +70,7 @@
   font-size: 14px;
   color: #f76b8a;
 }
-.about-section-fluid-skills .tech {
-  font-size: 30px;
-  margin-bottom: 30px;
-}
+
 @media (max-width: 960px) {
   .grid-2-columns {
     grid-template-columns: 1fr;

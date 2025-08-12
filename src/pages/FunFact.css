@@ -1,0 +1,56 @@
+.funfact-circle {
+  max-width: 500px;
+  text-align: center;
+  margin-top: 30px;
+  margin: 0 auto;
+  background: rgba(102, 191, 191, 0.2);
+  color: black;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.funfacts-title {
+  margin-bottom: 30px;
+  font-family: "PT Mono", monospace;
+  color: #f76b8a;
+}
+
+.funfact-list {
+  list-style-type: disc;
+  text-align: left;
+  padding-left: 20px;
+}
+.funfact-list li::marker {
+  color: #f76b8a;
+}
+.funfact-button {
+  font-family: "PT Mono", monospace;
+  text-decoration: none;
+  color: #f76b8a;
+  font-size: 18px;
+  font-weight: bold;
+
+  line-height: 1.5;
+  border: 1px solid #f76b8a;
+  padding: 20px 40px;
+  border-radius: 8px;
+  background: rgba(102, 191, 191, 0.2);
+  backdrop-filter: blur(10px);
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.funfact-button:hover {
+  color: #66bfbf;
+  border: 1px solid#66bfbf;
+  background: rgba(247, 107, 138, 0.2);
+  transition: transform 0.03ms all ease-in-out;
+  transform: scale(1.2);
+}

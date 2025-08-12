@@ -3,6 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import FunFact from "./FunFact";
 import "./About.css";
 import "../components/Footer.css";
 export default function About() {
@@ -21,6 +22,7 @@ export default function About() {
 
           <Link to="/projects">See My Projects</Link>
         </div>
+
         <div>
           <img
             src="images/mahdia.JPEG"
@@ -70,10 +72,8 @@ export default function About() {
             <div class="skills-title">VSCode</div>
           </div>
         </div>
-        <p class="tech text-center mt-5">
-          <strong>Technologies: </strong> HTML, CSS, JavaScript, Bootstrap
-        </p>
       </section>
+      <FunFact />
       <Footer />
     </div>
   );
