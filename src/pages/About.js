@@ -19,9 +19,7 @@ export default function About() {
             skilled in JavaScript and React.
           </p>
 
-          <a href="projects.html" rel="noreferrer">
-            See my Projects
-          </a>
+          <Link to="/projects">See My Projects</Link>
         </div>
         <div>
           <img
