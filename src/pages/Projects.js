@@ -27,7 +27,7 @@ export default function Projects() {
     {
       img: "images/AI-poem-generator.png",
       link: "https://afghan-ai-peom-generator.netlify.app/",
-      title: "AI Poemm Generator",
+      title: "AI Poem Generator",
       subTitle: "Built with HTML, CSS, JavaScript and AI",
     },
     {
