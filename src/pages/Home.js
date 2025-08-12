@@ -4,11 +4,11 @@ import "./Home.css";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Qoutes from "./Qoutes";
 
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <section className="Hero">
         <h2>Hi, I am</h2>
         <h1 className="mt-3">Mahdia Khamoosh</h1>
@@ -16,6 +16,7 @@ export default function Home() {
         <div className="about-me mt-5">
           <Link to="/about">About me</Link>
         </div>
+        <Qoutes />
       </section>
       <section className="first-section-fluid">
         <div class="row g-5">
