@@ -50,6 +50,7 @@
   display: inline-block;
   margin-top: 5px;
   margin-bottom: 10px;
+  font-family: "PT Mono", monospace;
 }
 .projects-section-fluid .project-link:hover {
   color: #66bfbf;
