@@ -36,9 +36,7 @@ export default function Home() {
               JavaScript. I combined all of these skills to create a
               fully-functioning weather app.
             </p>
-            <a href="projects.html" rel="noreferrer">
-              Learn More
-            </a>
+            <Link to="/Projects">Learn More</Link>
           </div>
           <div class="col-md-6">
             <h2>Clock App</h2>
@@ -50,9 +48,7 @@ export default function Home() {
               devices. It was a fun way to practice DOM manipulation, time
               functions, and Bootstrap layout utilities.
             </p>
-            <a href="projects.html" rel="noreferrer">
-              Learn More
-            </a>
+            <Link to="/Projects">Learn More</Link>
           </div>
           <div class="col-md-6">
             <img src="images/clock-app.png" class="img-fluid" alt="clock-app" />
@@ -74,9 +70,7 @@ export default function Home() {
               powers the interactive features, communicating with an AI model to
               generate poetic verses based on user input or random prompts.
             </p>
-            <a href="projects.html" rel="noreferrer">
-              Learn More
-            </a>
+            <Link to="/Projects">Learn More</Link>
           </div>
           <div class="col-md-6">
             <h2>React Weather App</h2>
@@ -91,9 +85,7 @@ export default function Home() {
               project helped me strengthen my skills in React, API integration,
               and component-based UI design.
             </p>
-            <a href="projects.html" rel="noreferrer">
-              Learn More
-            </a>
+            <Link to="/Projects">Learn More</Link>
           </div>
           <div class="col-md-6">
             <img
