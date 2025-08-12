@@ -57,6 +57,12 @@
 }
 .about-section-fluid-skills {
   margin-top: 10px;
+  max-width: 960px;
+  background: rgba(102, 191, 191, 0.2);
+  margin: 0 auto;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }
 .skills {
   color: #f76b8a;
@@ -64,7 +70,7 @@
 }
 .my-skills {
   font-size: 50px;
-  color: #66bfbf;
+  color: #52e6e6;
 }
 .my-skills .skills-title {
   font-size: 14px;
