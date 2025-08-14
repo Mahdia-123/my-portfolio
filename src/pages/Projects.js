@@ -20,7 +20,7 @@ export default function Projects() {
     },
     {
       img: "images/landaing-website.png",
-      link: "https://afghanistan-tourism.netlify.app/",
+      link: "https://kabul-landing-page.netlify.app/",
       title: "Kabul Landing Page",
       subTitle: "Built with HTML, CSS, JavaScript",
     },
