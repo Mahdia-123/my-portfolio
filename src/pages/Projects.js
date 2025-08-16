@@ -67,7 +67,7 @@ export default function Projects() {
       subTitle: "Built with HTML, CSS and JavaScript",
     },
     {
-      img: "public/images/Screen Shot 2025-08-15 at 6.23.47 PM.png",
+      img: "images/Screen Shot 2025-08-15 at 6.23.47 PM.png",
       link: "https://my-smart-to-do-list.netlify.app/",
       title: "Smart To-Do List",
       subTitle: "Built with HTML, CSS and JavaScript",
