@@ -41,11 +41,13 @@
 #certificates .certify-link {
   color: #f76b8a;
   font-weight: bold;
-  transition: color 0.2s ease-in-out;
+  text-decoration: none;
 }
 
 #certificates .certify-link:hover {
   color: #66bfbf;
+  text-decoration: underline #f76b8a;
+  transition: all 300ms ease-in-out;
 }
 
 .small-image {
