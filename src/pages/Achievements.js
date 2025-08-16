@@ -5,7 +5,6 @@ import "../components/Footer.css";
 import "./Achievements.css";
 
 export default function Achievements() {
-  <Navbar />;
   const certificates = [
     {
       img: "achivements/187437.png",
