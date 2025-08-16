@@ -19,7 +19,7 @@ export default function Home() {
         <Qoutes />
       </section>
       <section className="first-section-fluid">
-        <h1 className="mb-5">Some of my eatured projects</h1>
+        <h1 className="mb-5">Some of my featured projects</h1>
         <div class="row g-5">
           <div class="col-md-6">
             <img
