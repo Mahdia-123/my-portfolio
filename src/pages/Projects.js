@@ -16,7 +16,7 @@ export default function Projects() {
       img: "images/dictionary-app.png",
       link: "https://vanilla-dictionary-app.netlify.app/",
       title: "Dictionary App",
-      subTitle: "Built with React develper tools",
+      subTitle: "Built with React",
     },
     {
       img: "images/landaing-website.png",
@@ -40,7 +40,7 @@ export default function Projects() {
       img: "images/react-weather-app.png",
       link: "https://vanilla-magical-weather-app.netlify.app/",
       title: "React Weather App",
-      subTitle: "Built with React developer tools",
+      subTitle: "Built with React ",
     },
     {
       img: "images/Screen Shot 2025-08-07 at 5.05.39 PM.png",
@@ -52,7 +52,7 @@ export default function Projects() {
       img: "images/Screen Shot 2025-08-02 at 5.08.58 PM.png",
       link: "https://nine-photo-gallery-app.netlify.app/",
       title: "React Gallery App",
-      subTitle: "Built with React developer tools",
+      subTitle: "Built with React ",
     },
     {
       img: "images/book tracker app.png",
@@ -71,6 +71,12 @@ export default function Projects() {
       link: "https://my-smart-to-do-list.netlify.app/",
       title: "Smart To-Do List",
       subTitle: "Built with HTML, CSS and JavaScript",
+    },
+    {
+      img: "images/Screen Shot 2025-08-17 at 11.21.54 AM.png",
+      link: "https://my-friendly-to-do-list.netlify.app/",
+      title: "My friendly To-Do List",
+      subTitle: "Built with React",
     },
   ];
 
