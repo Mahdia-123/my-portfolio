@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import "./Rating.css";
 
 export default function Rating() {
-  const [rating, setRating] = useState(0); // current user rating
-  const [hover, setHover] = useState(0); // hover effect
-  const [allRatings, setAllRatings] = useState([]); // all stored ratings
+  const [rating, setRating] = useState(0);
+  const [hover, setHover] = useState(0);
+  const [allRatings, setAllRatings] = useState([]);
 
   // Load previous ratings from localStorage
   useEffect(() => {

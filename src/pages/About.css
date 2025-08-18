@@ -12,6 +12,8 @@
 }
 .about-section-fluid h3 {
   font-size: 25px;
+  color: black !important;
+  text-align: left;
 }
 .about-section-fluid p {
   font-family: roboto;

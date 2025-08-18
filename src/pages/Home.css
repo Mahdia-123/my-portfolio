@@ -28,6 +28,7 @@
   font-size: 28px;
   font-weight: thin;
   font-family: "PT Mono", monospace;
+  color: white !important;
 }
 .Hero .about-me a {
   text-decoration: none;
@@ -118,6 +119,7 @@ section h1 {
   }
   .first-section-fluid p {
     font-size: 14px;
+    text-align: center;
   }
   .first-section-fluid {
     padding: 15px;
