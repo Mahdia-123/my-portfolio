@@ -13,9 +13,11 @@
 .projects-section-fluid .heading {
   color: #f76b8a;
   margin-top: 20px;
+  text-align: center;
 }
-.projects-section-fluid .mb-4 {
+.projects-section-fluid .subtitle {
   color: gray;
+  text-align: center;
 }
 .grid {
   display: grid;
@@ -47,10 +49,12 @@
   border-radius: 8px;
   background: rgba(102, 191, 191, 0.2);
   backdrop-filter: blur(10px);
-  display: inline-block;
+  display: block;
   margin-top: 5px;
   margin-bottom: 10px;
   font-family: "PT Mono", monospace;
+  margin: 0 auto;
+  text-align: center;
 }
 .projects-section-fluid .project-link:hover {
   color: #66bfbf;
@@ -75,17 +79,5 @@
     width: 100%;
     height: auto;
     margin-top: 10px !important;
-  }
-  .projects-section-fluid .project-link {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  .projects-section-fluid .heading {
-    text-align: center;
-  }
-  .projects-section-fluid .mb-4 {
-    text-align: center;
   }
 }

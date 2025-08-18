@@ -1,7 +1,8 @@
-import React from "react";
+import React, { use, useState } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Rating from "./Rating";
 import "./Projects.css";
 
 export default function Projects() {
@@ -96,7 +97,7 @@ export default function Projects() {
                   />
                 </a>
                 <h2 className="heading mb-2">{pro.title}</h2>
-                <p className="mb-4">{pro.subTitle}</p>
+                <p className="mb-2 subtitle">{pro.subTitle}</p>
                 <a
                   href={pro.link}
                   target="_blank"
@@ -105,6 +106,7 @@ export default function Projects() {
                 >
                   Launch Project
                 </a>
+                <Rating />;
               </div>
             );
           })}
