@@ -85,7 +85,7 @@ export default function Projects() {
     <div>
       <section className="projects-section-fluid mb-3">
         <h1 className="mb-2">Take a look at what I've been working on!</h1>
-        <div className="grid grid-2-columns">
+        <div className="grid grid-2-columns ">
           {projects.map(function (pro, index) {
             return (
               <div key={index}>

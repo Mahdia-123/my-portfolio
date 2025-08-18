@@ -2,11 +2,9 @@
   color: gray !important;
   font-size: 16px;
   font-weight: bold;
-  line-height: 1.5;
   display: block;
   margin: 0 auto;
   margin-top: 5px;
-  margin-bottom: 10px;
   font-family: "PT Mono", monospace;
 }
 .btn:hover {
@@ -30,4 +28,7 @@ h3 {
   display: flex;
   justify-content: center;
   margin: 8px 0;
+}
+hr {
+  color: gray;
 }
