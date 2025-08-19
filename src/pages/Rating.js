@@ -72,7 +72,6 @@ export default function Rating() {
       >
         Rate
       </button>
-      <hr />
 
       <div style={{ marginTop: "10px", color: "gray" }}>
         <p>Average Rating: {averageRating} ⭐</p>
