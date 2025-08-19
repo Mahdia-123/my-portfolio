@@ -83,16 +83,16 @@ export default function Projects() {
 
   return (
     <div>
-      <section className="projects-section-fluid mb-3">
-        <h1 className="mb-2">Take a look at what I've been working on!</h1>
-        <div className="grid grid-2-columns ">
+      <div className="project">
+        <h1>Take a look at what I have been Working on!</h1>
+        <div className="projects-grid">
           {projects.map(function (pro, index) {
             return (
-              <div key={index}>
-                <a href={pro.img} target="_blank" rel="noreferrer">
+              <div className="card" key={index}>
+                <a href={pro.link} target="_blank" rel="noreferrer">
                   <img
                     src={pro.img}
-                    alt={`Projects${index}`}
+                    alt={`Project ${index}`}
                     className="img-fluid"
                   />
                 </a>
@@ -106,12 +106,12 @@ export default function Projects() {
                 >
                   Launch Project
                 </a>
-                <Rating />;
+                <Rating />
               </div>
             );
           })}
         </div>
-      </section>
+      </div>
       <Footer />
     </div>
   );

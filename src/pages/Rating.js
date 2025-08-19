@@ -67,7 +67,7 @@ export default function Rating() {
       >
         Rate
       </button>
-
+      <div className="border-bottom"></div>
       <div style={{ marginTop: "10px", color: "gray" }}>
         <p>Average Rating: {averageRating} ⭐</p>
         <p>Total Ratings: {allRatings.length}</p>
