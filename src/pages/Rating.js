@@ -6,24 +6,20 @@ export default function Rating() {
   const [hover, setHover] = useState(0);
   const [allRatings, setAllRatings] = useState([]);
 
-  // Load previous ratings from localStorage
   useEffect(() => {
     const storedRatings = JSON.parse(localStorage.getItem("ratings")) || [];
     setAllRatings(storedRatings);
   }, []);
 
-  // Handle user rating
   const handleRate = (value) => {
     setRating(value);
 
-    // Generate unique user ID (one per browser)
     let userId = localStorage.getItem("userId");
     if (!userId) {
-      userId = Date.now().toString(); // simple unique ID
+      userId = Date.now().toString();
       localStorage.setItem("userId", userId);
     }
 
-    // Check if this user already rated
     const updatedRatings = allRatings.filter((r) => r.userId !== userId);
     updatedRatings.push({ userId, rating: value });
 
@@ -31,7 +27,6 @@ export default function Rating() {
     localStorage.setItem("ratings", JSON.stringify(updatedRatings));
   };
 
-  // Calculate average rating
   const averageRating = allRatings.length
     ? (
         allRatings.reduce((sum, r) => sum + r.rating, 0) / allRatings.length
