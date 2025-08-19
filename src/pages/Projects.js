@@ -76,7 +76,7 @@ export default function Projects() {
     {
       img: "images/Screen Shot 2025-08-17 at 11.21.54 AM.png",
       link: "https://my-friendly-to-do-list.netlify.app/",
-      title: "My friendly To-Do List",
+      title: "Simple To-Do List",
       subTitle: "Built with React",
     },
   ];
