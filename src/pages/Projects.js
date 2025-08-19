@@ -96,7 +96,7 @@ export default function Projects() {
                     className="img-fluid"
                   />
                 </a>
-                <h2 className="heading mb-2">{pro.title}</h2>
+                <h2 className="heading mb-3">{pro.title}</h2>
                 <p className="mb-2 subtitle">{pro.subTitle}</p>
                 <a
                   href={pro.link}
