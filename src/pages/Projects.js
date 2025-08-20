@@ -79,6 +79,12 @@ export default function Projects() {
       title: "Simple To-Do List",
       subTitle: "Built with React",
     },
+    {
+      img: "images/expense tracker.png",
+      link: "https://modern-expense-tracker-app.netlify.app/",
+      title: "Expense Tracker",
+      subTitle: "Built with React",
+    },
   ];
 
   return (
