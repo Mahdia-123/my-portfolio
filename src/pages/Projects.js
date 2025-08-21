@@ -1,11 +1,12 @@
-import React, { use, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import Typewriter from "typewriter-effect";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 import Rating from "./Rating";
 import "./Projects.css";
 
 export default function Projects() {
+  const comingSoon = ["Coming Soon..."];
   const projects = [
     {
       img: "images/clock.png",
@@ -79,16 +80,61 @@ export default function Projects() {
       title: "Simple To-Do List",
       subTitle: "Built with React",
     },
-    {
-      img: "images/expense tracker.png",
-      link: "https://modern-expense-tracker-app.netlify.app/",
-      title: "Expense Tracker",
-      subTitle: "Built with React",
-    },
   ];
 
   return (
     <div>
+      <header>
+        <div className="header-grid">
+          <div>
+            <h2 className="heading2">Expense Tracker App</h2>
+
+            <p className="mt-5">
+              The Expense Tracker App is a simple and user-friendly tool
+              designed to help individuals manage their daily spending. Users
+              can add expenses with a description, amount, and date, and the app
+              automatically organizes them into a list. It also provides a clear
+              summary of total expenses, making it easier to track financial
+              habits.
+            </p>
+
+            <h3 className="coming-soon">
+              <Typewriter
+                options={{
+                  strings: comingSoon,
+                  autoStart: true,
+                  delay: 100,
+                  pauseFor: 4000,
+                  loop: true,
+                  cursor: "",
+                }}
+              />
+            </h3>
+          </div>
+          <div className="header-card">
+            <a
+              href="images/Screen Shot 2025-08-21 at 9.47.36 AM.png"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="images/Screen Shot 2025-08-21 at 9.47.36 AM.png"
+                alt="Expense Tracker"
+                className="card-img img-fluid"
+              />
+            </a>
+            <h2 className="comming-title">Expense Tracker App</h2>
+            <p className="comming-subtitle">Build with React</p>
+            <a
+              href="https://modern-expense-tracker-app.netlify.app/"
+              className="comming-project-link"
+            >
+              {" "}
+              Lunch Project
+            </a>
+          </div>
+        </div>
+      </header>
       <div className="project">
         <h1>Take a look at what I have been Working on!</h1>
         <div className="projects-grid">
@@ -118,7 +164,6 @@ export default function Projects() {
           })}
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

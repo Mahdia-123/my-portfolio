@@ -56,6 +56,7 @@
   border-radius: 20px;
   height: 500px !important;
   width: 500px !important;
+  aspect-ratio: 16 / 9 !important;
 }
 .about-section-fluid-skills {
   margin-top: 10px;
