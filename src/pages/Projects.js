@@ -92,10 +92,10 @@ export default function Projects() {
             <p className="mt-5">
               The Expense Tracker App is a simple and user-friendly tool
               designed to help individuals manage their daily spending. Users
-              can add expenses with a description, amount, and date, and the app
-              automatically organizes them into a list. It also provides a clear
-              summary of total expenses, making it easier to track financial
-              habits.
+              can add expenses with a description, amount, and category, and the
+              app automatically organizes them into a list. It also provides a
+              clear summary of total expenses, making it easier to track
+              financial habits.
             </p>
 
             <h3 className="coming-soon">
