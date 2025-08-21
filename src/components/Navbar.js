@@ -31,7 +31,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/achievements">
-                Achievements/CV
+                Achievements
               </Link>
             </li>
             <li className="nav-item">

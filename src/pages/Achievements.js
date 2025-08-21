@@ -96,22 +96,6 @@ export default function Achievements() {
         </div>
       </section>
 
-      <section id="achievements" className="achievements-section">
-        <h2>My Resume</h2>
-        <div className="cv">
-          <a
-            href="pdf-file/Mahdia-Khamoosh-CV.pdf"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Click here to download
-            <span>
-              <i className="fa-solid fa-download"></i>
-            </span>
-          </a>
-        </div>
-      </section>
-
       <Footer />
     </>
   );

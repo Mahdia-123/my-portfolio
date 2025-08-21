@@ -63,25 +63,6 @@
   color: #f76b8a;
 }
 
-.cv {
-  text-align: center;
-  font-size: 30px;
-  margin-bottom: 30px;
-}
-
-.cv a {
-  color: #66bfbf;
-  text-decoration: none;
-  transition: color 0.2s ease-in-out;
-}
-
-.cv a:hover {
-  color: #f76b8a;
-}
-
-.cv span {
-  margin-left: 20px;
-}
 @media (max-width: 960px) {
   .grid-3-columns {
     grid-template-columns: 1fr;
@@ -93,9 +74,5 @@
   .small-image {
     max-width: 100%;
     height: auto;
-  }
-
-  .cv {
-    font-size: 20px;
   }
 }

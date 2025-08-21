@@ -1,79 +1,110 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import FunFact from "./FunFact";
 import "./About.css";
-import "../components/Footer.css";
-export default function About() {
-  return (
-    <div>
-      {" "}
-      <section class="about-section-fluid grid grid-2-columns">
-        <div>
-          <h1 class="mb-3">Hello, I'm Mahdia Khamoosh</h1>
-          <h3 class="mb-3">Front-end web developer based in Afghanistan</h3>
-          <p class="mb-5">
-            I’m currently seeking new opportunities in front-end development.
-            I’m open to work remotely and have flexible hours. I’m highly
-            skilled in JavaScript and React.
-          </p>
+import FunFact from "./FunFact";
 
-          <Link to="/projects">See My Projects</Link>
+export default function About() {
+  const socialLinks = [
+    { icon: "fa-regular fa-envelope", links: "mailto:fosoonryan601@gmail.com" },
+    { icon: "fa-brands fa-github", links: "https://github.com/Mahdia-123" },
+    {
+      icon: "fa-brands fa-linkedin",
+      links: "https://www.linkedin.com/in/mahdia-khamoosh-a2abb9364",
+    },
+  ];
+
+  const skills = [
+    "Languages: HTML, CSS, JavaScript",
+    "Frameworks & Libraries: React, Bootstrap, Tailwind CSS",
+    "Tools & Platforms: Git, GitHub, Netlify",
+    "Other Skills: Responsive Web Design, UI/UX Design, Progressive Web Apps (PWA), TypeScript basics",
+    "Soft Skills: Problem-solving, creativity, teamwork, time management",
+  ];
+
+  return (
+    <div className="about-page">
+      <section className="about-header grid-2-columns">
+        <div className="header-left">
+          <h1>Developer Portfolio</h1>
+          <p className="subtitle">Front-end developer based in Afghanistan</p>
+
+          <div className="links">
+            <a
+              href="/pdf-file/Mahdia-Khamoosh-CV.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="resume-btn"
+            >
+              📄 Resume
+            </a>
+            <div className="social-links">
+              {socialLinks.map((link, index) => (
+                <a
+                  key={index}
+                  href={link.links}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className={link.icon}></i>
+                </a>
+              ))}
+            </div>
+          </div>
         </div>
 
-        <div>
+        <div className="header-right">
           <img
-            src="images/mahdia.JPEG"
+            src="/images/089DF15D-CF83-4C3E-9052-14B6C471CE59.JPG"
             alt="mahdia-khamoosh"
-            class="img-fluid"
+            className="profile-pic"
           />
         </div>
       </section>
-      <section class="about-section-fluid-skills">
-        <h1 class="text-center skills">My Skills</h1>
-        <div class="my-skills grid grid-3-columns mt-5 text-center">
-          <div>
-            <i class="fa-brands fa-html5"></i>
-            <div class="skills-title">Html</div>
-          </div>
-          <div>
-            <i class="fa-brands fa-css3"></i>
-            <div class="skills-title">Css</div>
-          </div>
-          <div>
-            <i class="fa-brands fa-java"></i>
-            <div class="skills-title">Javascript</div>
-          </div>
-          <div>
-            <i class="fa-brands fa-react"></i>
-            <div class="skills-title">React.js</div>
-          </div>
-          <div>
-            <i class="fa-brands fa-bootstrap"></i>
-            <div class="skills-title">Bootstrap</div>
-          </div>
-          <div>
-            <i class="fa-solid fa-mobile-screen-button"></i>
-            <div class="skills-title">Responsive</div>
-          </div>
-          <div>
-            <i class="fa-brands fa-git-alt"></i>
-            <div class="skills-title">Git</div>
-          </div>
 
-          <div>
-            <i class="fa-brands fa-github"></i>
-            <div class="skills-title">Github</div>
-          </div>
-          <div>
-            <i class="fa-solid fa-laptop-code"></i>
-            <div class="skills-title">VSCode</div>
-          </div>
+      <section className="about-me">
+        <h2 className="heading2">About Me</h2>
+        <div className="line"></div>
+        <p>
+          I’m Mahdia Khamoosh, a passionate Front-End Web Developer based in
+          Afghanistan. With a background in journalism and technology, I bring
+          strong communication skills together with my technical expertise to
+          create modern, user-friendly, and responsive web applications.
+        </p>
+        <p>
+          I have hands-on experience with HTML, CSS, JavaScript, React,
+          Bootstrap, and Tailwind CSS, along with tools like Git, GitHub, and
+          Netlify. I enjoy transforming ideas into clean and functional
+          interfaces that provide seamless user experiences.
+        </p>
+        <p>
+          My journey into web development started with a deep curiosity about
+          technology and the freedom it provides to build and innovate. Since
+          then, I’ve completed several coding workshops, gained certificates,
+          and worked on personal projects that reflect my dedication to growth
+          and creativity.
+        </p>
+        <p>
+          Beyond coding, I value teamwork, problem-solving, and continuous
+          learning. My goal is to become a skilled developer who contributes to
+          impactful projects, explores advanced technologies, and eventually
+          supports other women in tech who face barriers to education and
+          opportunities.
+        </p>
+      </section>
+
+      <section className="my-skills grid">
+        <div>
+          <img src="/images/skills.png" alt="skills" className="img" />
+        </div>
+        <div className="skill-description">
+          <h1 className="skills-h1">My Skills</h1>
+          <ul>
+            {skills.map((skill, index) => (
+              <li key={index}>{skill}</li>
+            ))}
+          </ul>
         </div>
       </section>
       <FunFact />
-      <Footer />
     </div>
   );
 }
