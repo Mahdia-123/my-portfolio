@@ -4,8 +4,7 @@ import "./Updates.css";
 export default function Updates() {
   const [updates, setUpdates] = useState([]);
 
-  // Fake messages for demo
-  const fakeMessages = [
+  const updateMessages = [
     "🚀 New feature deployed!",
     "🐛 Bug fix in authentication module.",
     "⚡ Server performance improved.",
@@ -13,15 +12,11 @@ export default function Updates() {
     "🔒 Security patch applied.",
   ];
 
-  // Add new update every 15 seconds
   useEffect(() => {
     const interval = setInterval(() => {
       const randomMessage =
-        fakeMessages[Math.floor(Math.random() * fakeMessages.length)];
-      setUpdates((prev) => [
-        { id: Date.now(), text: randomMessage },
-        ...prev, // newest at top
-      ]);
+        updateMessages[Math.floor(Math.random() * updateMessages.length)];
+      setUpdates((prev) => [{ id: Date.now(), text: randomMessage }, ...prev]);
     }, 15000);
 
     return () => clearInterval(interval);
