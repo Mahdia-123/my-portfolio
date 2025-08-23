@@ -157,7 +157,7 @@ header {
   .heading2 {
     text-align: center;
     font-size: 30px;
-    color: white;
+    color: white !important;
   }
   .mt-5 {
     display: none;
