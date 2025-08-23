@@ -1,6 +1,5 @@
 import React from "react";
 import "./About.css";
-import FunFact from "./FunFact";
 
 export default function About() {
   const socialLinks = [
@@ -24,7 +23,7 @@ export default function About() {
     <div className="about-page">
       <section className="about-header grid-2-columns">
         <div className="header-left">
-          <h1>Developer Portfolio</h1>
+          <h1>Mahdia Khamoosh</h1>
           <p className="subtitle">Front-end developer based in Afghanistan</p>
 
           <div className="links">
@@ -104,7 +103,6 @@ export default function About() {
           </ul>
         </div>
       </section>
-      <FunFact />
     </div>
   );
 }
