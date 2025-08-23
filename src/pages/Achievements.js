@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+
 import "../components/Footer.css";
 import "./Achievements.css";
 
 export default function Achievements() {
+  const [changeTheme, setChangeTheme] = useState("white");
+  function handleTheme() {
+    setChangeTheme((prev) => (prev === "white" ? "black" : "white"));
+  }
+
   const certificates = [
     {
       img: "achivements/187437.png",
@@ -45,7 +50,7 @@ export default function Achievements() {
   ];
 
   return (
-    <>
+    <div className={`achievement-container ${changeTheme}`}>
       <section id="certificates">
         <h2 className="mt-5 mb-5">Certificates & Achievements</h2>
 
@@ -95,8 +100,42 @@ export default function Achievements() {
           </div>
         </div>
       </section>
-
-      <Footer />
-    </>
+      <div className="footer">
+        <button className="toggle-theme" onClick={handleTheme}>
+          Change Theme
+        </button>
+        <div className="socialLinks">
+          <div class="d-flex justify-content-center text-center contactLinks">
+            <div>
+              <a
+                href="https://github.com/Mahdia-123"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.linkedin.com/in/mahdia-khamoosh-a2abb9364"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </div>
+            <div>
+              <a
+                href="mailto:fosoonryan601@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i class="fa-regular fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }

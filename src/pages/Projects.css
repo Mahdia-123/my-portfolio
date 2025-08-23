@@ -92,7 +92,7 @@ header {
   font-family: "PT Mono", monospace;
   font-weight: bold !important;
   margin-top: 50px;
-  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
 .projects-grid {
   display: grid;
