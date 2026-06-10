@@ -15,8 +15,8 @@ export default function Projects() {
       subTitle: "Built with HTML, CSS, and JavaScript",
     },
     {
-      img: "images/dictionary-app.png",
-      link: "https://vanilla-dictionary-app.netlify.app/",
+      img: "images/Capture.PNG",
+      link: "https://codeweekend-final-project.netlify.app/",
       title: "Dictionary App",
       subTitle: "Built with React",
     },
